@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/core/sdk:3.0.100-alpine3.9
+FROM mcr.microsoft.com/dotnet/core/sdk:3.1-alpine
 
 #Install git openssh curl bash and java
 RUN set -ex && apk add --no-cache git openssh-client curl bash openjdk8-jre
